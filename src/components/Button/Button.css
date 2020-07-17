@@ -1,0 +1,173 @@
+:root {
+    --blue: #1db4f0;
+    --blueMuted: #cdeffc;
+    --red: #f55360;
+    --redMuted: #faedee;
+    --green: #17d26b;
+    --greenMuted: #d5f8e5;
+    --yellow: #f7c633;
+    --yellowMuted: #faf6ea;
+    --charcoal: #2a2a2a;
+    --charcoalMuted: #e6e4e4;
+}
+
+button {
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-primary {
+    background-color: var(--blue);
+    color: white;
+    border: var(--blue);
+    border-width: 0px;
+}
+
+.button-primary-outline {
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    color: var(--blue);
+    border-color: var(--blue);
+}
+
+.button-primary-muted {
+    background-color: var(--blueMuted);
+    color: var(--blue);
+    border: var(--blueMuted);
+    border-width: 0px;
+}
+
+.button-primary:hover {
+    background-color: #0fa3db;
+    color: white;
+    border: #0fa3db;
+}
+
+.button-danger {
+    background-color: var(--red);
+    color: white;
+    border: var(--red)
+}
+
+.button-danger-outline {
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    color: var(--red);
+    border-color: var(--red);
+}
+
+.button-danger-muted {
+    background-color: var(--redMuted);
+    color: var(--red);
+    border: var(--redMuted);
+    border-width: 0px;
+}
+
+.button-danger:hover {
+    background-color: #f22232;
+    color: white;
+    border: #f22232;
+}
+
+.button-success {
+    background-color: var(--green);
+    color: white;
+    border: var(--green)
+}
+
+.button-success-outline {
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    color: var(--green);
+    border-color: var(--green);
+}
+
+.button-success-muted {
+    background-color: var(--greenMuted);
+    color: var(--green);
+    border: var(--greenMuted);
+    border-width: 0px;
+}
+
+.button-success:hover {
+    background-color: #14b85e;
+    color: white;
+    border: #14b85e;
+}
+
+.button-warning {
+    background-color: var(--yellow);
+    color: white;
+    border: var(--yellow);
+}
+
+.button-warning-outline {
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    color: var(--yellow);
+    border-color: var(--yellow);
+}
+
+.button-warning-muted {
+    background-color: var(--yellowMuted);
+    color: var(--yellow);
+    border: var(--yellowMuted);
+    border-width: 0px;
+}
+
+.button-warning:hover {
+    background-color: #f5bc0e;
+    color: white;
+    border: #f5bc0e;
+}
+
+.button-default {
+    background-color: var(--charcoal);
+    color: white;
+    border: var(--charcoal);
+}
+
+.button-default-outline {
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    color: var(--charcoal);
+    border-color: var(--charcoal);
+}
+
+.button-default-muted {
+    background-color: var(--charcoalMuted);
+    color: var(--charcoal);
+    border: var(--charcoalMuted);
+    border-width: 0px;
+}
+
+.button-default:hover {
+    background-color: #000000;
+    color: white;
+    border: #000000;
+}
+
+.button-medium {
+    padding: 12px 24px;
+}
+
+.button-large {
+    padding: 15px 30px;
+}
+
+.msg {
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
