@@ -45,7 +45,3 @@ const Button = (props) => {
 }//Button
 
 export default Button; 
-
-{/* <img src={require('../images/cart_2.png')} alt='A cart' /> */}
-
-{/* <div className="msg">{props.text ? props.text : null}</div> */}

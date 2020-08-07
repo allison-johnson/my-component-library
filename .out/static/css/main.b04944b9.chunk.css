@@ -1,0 +1,236 @@
+:root {
+    --blue: #1db4f0;
+    --blueMuted: #cdeffc;
+    --red: #f55360;
+    --redMuted: #faedee;
+    --green: #17d26b;
+    --greenMuted: #d5f8e5;
+    --yellow: #f7c633;
+    --yellowMuted: #faf6ea;
+    --charcoal: #2a2a2a;
+    --charcoalMuted: #e6e4e4;
+}
+
+button {
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-primary {
+    background-color: #1db4f0;
+    background-color: var(--blue);
+    color: white;
+    border: #1db4f0;
+    border: var(--blue);
+    border-width: 0px;
+}
+
+.button-primary-outline {
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    color: #1db4f0;
+    color: var(--blue);
+    border-color: #1db4f0;
+    border-color: var(--blue);
+}
+
+.button-primary-muted {
+    background-color: #cdeffc;
+    background-color: var(--blueMuted);
+    color: #1db4f0;
+    color: var(--blue);
+    border: #cdeffc;
+    border: var(--blueMuted);
+    border-width: 0px;
+}
+
+.button-primary:hover {
+    background-color: #0fa3db;
+    color: white;
+    border: #0fa3db;
+}
+
+.button-danger {
+    background-color: #f55360;
+    background-color: var(--red);
+    color: white;
+    border: #f55360;
+    border: var(--red)
+}
+
+.button-danger-outline {
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    color: #f55360;
+    color: var(--red);
+    border-color: #f55360;
+    border-color: var(--red);
+}
+
+.button-danger-muted {
+    background-color: #faedee;
+    background-color: var(--redMuted);
+    color: #f55360;
+    color: var(--red);
+    border: #faedee;
+    border: var(--redMuted);
+    border-width: 0px;
+}
+
+.button-danger:hover {
+    background-color: #f22232;
+    color: white;
+    border: #f22232;
+}
+
+.button-success {
+    background-color: #17d26b;
+    background-color: var(--green);
+    color: white;
+    border: #17d26b;
+    border: var(--green)
+}
+
+.button-success-outline {
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    color: #17d26b;
+    color: var(--green);
+    border-color: #17d26b;
+    border-color: var(--green);
+}
+
+.button-success-muted {
+    background-color: #d5f8e5;
+    background-color: var(--greenMuted);
+    color: #17d26b;
+    color: var(--green);
+    border: #d5f8e5;
+    border: var(--greenMuted);
+    border-width: 0px;
+}
+
+.button-success:hover {
+    background-color: #14b85e;
+    color: white;
+    border: #14b85e;
+}
+
+.button-warning {
+    background-color: #f7c633;
+    background-color: var(--yellow);
+    color: white;
+    border: #f7c633;
+    border: var(--yellow);
+}
+
+.button-warning-outline {
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    color: #f7c633;
+    color: var(--yellow);
+    border-color: #f7c633;
+    border-color: var(--yellow);
+}
+
+.button-warning-muted {
+    background-color: #faf6ea;
+    background-color: var(--yellowMuted);
+    color: #f7c633;
+    color: var(--yellow);
+    border: #faf6ea;
+    border: var(--yellowMuted);
+    border-width: 0px;
+}
+
+.button-warning:hover {
+    background-color: #f5bc0e;
+    color: white;
+    border: #f5bc0e;
+}
+
+.button-default {
+    background-color: #2a2a2a;
+    background-color: var(--charcoal);
+    color: white;
+    border: #2a2a2a;
+    border: var(--charcoal);
+}
+
+.button-default-outline {
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    color: #2a2a2a;
+    color: var(--charcoal);
+    border-color: #2a2a2a;
+    border-color: var(--charcoal);
+}
+
+.button-default-muted {
+    background-color: #e6e4e4;
+    background-color: var(--charcoalMuted);
+    color: #2a2a2a;
+    color: var(--charcoal);
+    border: #e6e4e4;
+    border: var(--charcoalMuted);
+    border-width: 0px;
+}
+
+.button-default:hover {
+    background-color: #000000;
+    color: white;
+    border: #000000;
+}
+
+.button-medium {
+    padding: 12px 24px;
+}
+
+.button-large {
+    padding: 15px 30px;
+}
+
+.msg {
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+input, select {
+    border-color: #dfdfdf;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.filled {
+    background: #f0f0f0;
+}
+
+.input-small {
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.input-medium {
+    box-sizing: border-box;
+    padding: 8px;
+}
+
+.input-large {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+
+/*# sourceMappingURL=main.b04944b9.chunk.css.map*/
