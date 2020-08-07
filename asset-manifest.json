@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b04944b9.chunk.css",
+    "main.js": "/main.7aa933c761e8c9f739c0.bundle.js",
+    "main.css.map": "/static/css/main.b04944b9.chunk.css.map",
+    "main.js.map": "/main.7aa933c761e8c9f739c0.bundle.js.map",
+    "runtime~main.js": "/runtime~main.7aa933c761e8c9f739c0.bundle.js",
+    "runtime~main.js.map": "/runtime~main.7aa933c761e8c9f739c0.bundle.js.map",
+    "vendors~main.js": "/vendors~main.7aa933c761e8c9f739c0.bundle.js",
+    "vendors~main.js.map": "/vendors~main.7aa933c761e8c9f739c0.bundle.js.map",
+    "iframe.html": "/iframe.html",
+    "precache-manifest.5e5bfe39bebcbe6d9b73fd6d779ed605.js": "/precache-manifest.5e5bfe39bebcbe6d9b73fd6d779ed605.js",
+    "service-worker.js": "/service-worker.js",
+    "static/media/cart_2.png": "/static/media/cart_2.3ba635fa.png",
+    "static/media/hearts.png": "/static/media/hearts.70131870.png",
+    "vendors~main.7aa933c761e8c9f739c0.bundle.js.LICENSE.txt": "/vendors~main.7aa933c761e8c9f739c0.bundle.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "runtime~main.7aa933c761e8c9f739c0.bundle.js",
+    "vendors~main.7aa933c761e8c9f739c0.bundle.js",
+    "static/css/main.b04944b9.chunk.css",
+    "main.7aa933c761e8c9f739c0.bundle.js"
+  ]
+}
